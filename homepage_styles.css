@@ -85,6 +85,7 @@
 .backarticle{
     background-color:#343a40;
     height: 500px;
+    padding-left: 120px;
     overflow: hidden;
 }
 
