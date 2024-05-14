@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ilgiornale.it - Ultime notizie</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="homepage_styles.css">
+
+
+</head>
+<body>
+    <div class="container-fluid container-custom">
+
+        <header>
+            <!--barra che scompare-->
+
+            <div class="fixed-top" id="scrollingElement">
+                <nav class="navbar navbar-light bg-white justify-content-md-between pb-3">
+                    <!-- toogle button -->
+
+                    <div class="px-2">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> </div>
+                    <div class="px-2">
+                        <a class="navbar-brand" href="#">
+                            <img src="immagini/monogram.jpg" alt="Il Giornale Logo" style="height: 40px;">
+                        </a>
+                    </div>
+                    <!--search-->
+                    <div class="px-2">
+                        <a class="btn btn-outline-dark btn-custom-2" href="#" role="button">ABBONATI</a>
+                        <a class="btn btn-lg d-none d-md-inline-block btn-custom" href="#" role="button">
+                            <i class="bi bi-search"></i></a>
+                        <a class="btn btn-lg btn-custom" href="#" role="button">
+                            <i class="bi bi-person"></i>
+                        </a>
+
+                    </div>
+                </nav>
+                <hr class="hr hr-custom my-0">
+            </div>
+            <!--fine barra che scompare -->
+            <div id="disappearingNav">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white justify-content-md-between mb-3">
+                        <!-- toogle button -->
+
+                        <div class="px-2">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button> </div>
+                        <div class="px-2">
+                             <a class="navbar-brand" href="#">
+                                <img src="immagini/ipiccy_image.jpg" alt="Il Giornale Logo" style="height: 60px;">
+                            </a>
+                        </div>
+                <!--search-->
+                        <div class="px-2">
+                            <a class="btn btn-outline-dark btn-custom-2" href="#" role="button">ABBONATI</a>
+                            <a class="btn btn-lg d-none d-md-inline-block btn-custom" href="#" role="button">
+                                <i class="bi bi-search"></i></a>
+                            <a class="btn btn-lg btn-custom" href="#" role="button">
+                                <i class="bi bi-person"></i>
+                            </a>
+
+                        </div>
+                </nav>
+            </div>
+            <!-- Toggled content-->
+            <div class="collapse navbar-collapse z-3 position-absolute custom-content justify-content-center overflow-y-scroll" id="navbarSupportedContent">
+                <div>
+                    <form class="d-flex">
+                        <input class="form-control mx-2" type="search" placeholder="Cerca nel sito" aria-label="Search">
+                        <button class="btn btn-warning mx-2" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+
+                    <div class="row my-2 justify-content-center">
+                        <div class="col-md-3 col-12 my-3 mx-4">
+                            ARGOMENTI
+                            <div class="row">
+                                <div class="col-6 col-lg-4 my-1"><a href="#" class="link1"> Politica </a></div>
+                                <div class="col-6 col-lg-4 my-1"><a href="#" class="link1">Cronache</a></div>
+                                <div class="col-6 col-lg-4 my-1"><a href="#" class="link1">Economia</a></div>
+                                <div class="col-6 col-lg-4 my-1"><a href="#" class="link1">Politica</a></div>
+                                <div class="col-6 col-lg-4 my-1"><a href="#" class="link1">Lifestyle</a></div>
+                                <div class="col-6 col-lg-4 my-1"><a href="#" class="link1">Tecnologia</a></div>
+                                <div class="col-6 col-lg-4 my-1"><a href="#" class="link1">Cronache</a></div>
+                                <div class="col-6 col-lg-4 my-1"><a href="#" class="link1">Salute</a></div>
+                                <div class="col-6 col-lg-4 my-1"><a href="#" class="link1">Mondo</a></div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-12 my-3 mx-4">
+                            IN EVIDENZA
+                            <ul class="nav flex-column ">
+                                <li class="nav-item my-2">
+                                    <a class="btn btn-outline-dark links-costume " href="#" role="button">Guerra in Ucraina</a>
+                                </li>
+                                <li class="nav-item my-2">
+                                    <a class="btn btn-outline-dark links-costume " href="#" role="button">Pensioni</a>
+                                </li>
+                                <li class="nav-item my-2">
+                                    <a class="btn btn-outline-dark links-costume" href="#" role="button">Israele</a>
+                                </li>
+                                <li class="nav-item my-2">
+                                    <a class="btn btn-outline-dark links-costume" href="#" role="button">Oroscopo</a>
+                                </li>
+                                <li class="nav-item my-2">
+                                    <a class="btn btn-outline-dark links-costume" href="#" role="button">Università</a>
+                                </li>
+                                <li class="nav-item my-2">
+                                    <a class="btn btn-outline-dark links-costume" href="#" role="button">Meteo</a>
+                                </li>
+                                <li class="nav-item my-2">
+                                    <a class="btn btn-outline-dark links-costume" href="#" role="button">Elezioni</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-12 my-3 mx-4">
+                            <div class="px-3 d-inline-flex ">SOCIAL</div>
+                            <ul class="d-flex flex-row custom-list">
+                                <li class=" my-2 mx-0">
+                                <a class="btn d-inline-block btn-custom" href="#" role="button">
+                                    <i class="bi bi-tiktok"></i></a>
+                                </li>
+                                <li class=" my-2 mx-0">
+                                <a class="btn d-inline-block btn-custom" href="#" role="button">
+                                    <i class="bi bi-instagram"></i></a>
+                                </li>
+                                <li class=" my-2 mx-0">
+                                <a class="btn d-inline-block btn-custom" href="#" role="button">
+                                    <i class="bi bi-facebook"></i></a>
+                                </li>
+                                <li class=" my-2 mx-0">
+                                <a class="btn d-inline-block btn-custom" href="#" role="button">
+                                    <i class="bi bi-whatsapp"></i></a>
+                                </li>
+                                <li class=" my-2 mx-0">
+                                    <a class="btn d-inline-block btn-custom" href="#" role="button">
+                                        <i class="bi bi-twitter-x"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- links bar-->
+            <div id="disappering">
+                <hr class="hr hr-custom d-md-none">
+                    <div class="links row justify-content-between">
+                            <ul class="nav d-flex nav-custom ">
+                                <li class="nav-item">
+                                    <a class="nav-link disabled d-none d-lg-inline-block" aria-disabled="true">IN EVIDENZA </a>
+                                </li>
+                                <li class="nav-item d-flex justify-content-center fire"><span class="bi bi-fire my-auto "></span></li>
+                                <li>
+                                    <a class="nav-link nstart" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Guerra in Ucraina</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pensioni</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Israele</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Oroscopo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Università</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Meteo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Elezioni</a>
+                                </li>
+                                <li class="d-flex align-content-center adj d-none"> <span class="my-auto">Aggiornato </span></li>
+                            </ul>
+                    </div>
+                <hr class="hr hr-custom">
+            </div>
+        </header>
+    </div>
+    <!--FINE HEADER -->
+    <!--ARTICOLI -->
+    <div class="container-fluid container-custom">
+        <div class="row justify-content-center">
+            <div class="col-5"> pippo
+            </div>
+            <div class="col-md-4 col-8 backarticle ">
+                <ul class="my-3 flex-column pb-5">
+                    <li class="my-2 flex-md-row"> <a href="#"class="my-2 flex-md-row"> <img height="100px" src="immagini/articoli/pexels-chaikong2511-35825.jpg"><p>cosimo pezzo di sfterco</p> </a></li>
+                    <li> <a href="#" class="my-2 flex-md-row"> <img height="100px" src="immagini/articoli/pexels-chaikong2511-35825.jpg"><p>vaffanculo cosimo</p> </a></li>
+                    <li> <a href="#" class="my-2 flex-md-row"> <img height="100px" src="immagini/articoli/pexels-chaikong2511-35825.jpg"><p>cosimo stronzo</p> </a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER-->
+    <div class="container-fluid container-custom">
+        <footer class="text-md-start footer-custom" >
+            <hr class="hr hr-custom">
+            <div class="row row-cols-1 row-cols-md-4 my-2 ">
+                <div class="col my-3">
+                    <ul class="nav flex-column my-2">
+                        <li>ARGOMENTI</li>
+                        <li> <a href="#" class="link1"> Politica </a></li>
+                        <li><a href="#" class="link1">Cronache</a></li>
+                        <li><a href="#" class="link1">Economia</a></li>
+                        <li><a href="#" class="link1">Politica</a></li>
+                        <li><a href="#" class="link1">Lifestyle</a></li>
+                        <li><a href="#" class="link1">Tecnologia</a></li>
+                        <li><a href="#" class="link1">Cronache</a></li>
+                        <li><a href="#" class="link1">Salute</a></li>
+                        <li><a href="#" class="link1">Mondo</a></li>
+                    </ul>
+                </div>
+                <div class="col my-3">
+
+                    <ul class="nav flex-column my-2">
+                        <li>EDITORIALI</li>
+                        <li><a href="#" class="link1">L'editoriale di XXX</a></li>
+                        <li><a href="#" class="link1">Il commento di XX</a></li>
+                    </ul>
+
+                    <ul class="nav flex-column my-2">
+                        <li>NETWORK</li>
+                        <li><a href="#" class="link1">Insideover</a></li>
+                        <li><a href="#" class="link1">Timeover</a></li>
+                    </ul>
+
+                </div>
+                <div class="col my-3">
+
+                    <ul class="nav flex-column my-2">
+                        <li>ABBONAMENTI</li>
+                        <li><a href="#" class="link1">Edizione cartacea</a></li>
+                        <li><a href="#" class="link1">Edizione digitale</a></li>
+                        <li><a href="#" class="link1">Ricerca promozionale</a></li>
+                        <li><a href="#" class="link1">Termini e condizioni</a></li>
+                    </ul>
+
+                    <ul class="nav flex-column my-2">
+                        <li>ASSISTENZA</li>
+                        <li><a href="#" class="link1">Suggerimenti</a></li>
+                        <li><a href="#" class="link1">Supporto clienti</a></li>
+                    </ul>
+
+                    <ul class="nav flex-column my-2">
+                        <li>PUBBLICITA'</li>
+                        <li> <a href="#" class="link1">Pubblicità elettorale</a></li>
+                    </ul>
+                </div>
+                <div class="col my-3 ">
+                    SOCIAL
+                    <ul class="d-flex flex-row custom-list justify-content-center justify-content-md-start">
+                        <li class="my-2 mx-0">
+                            <a class="btn d-inline-block btn-custom" href="#" role="button">
+                                <i class="bi bi-tiktok"></i></a>
+                        </li>
+                        <li class=" my-2 mx-0">
+                            <a class="btn d-inline-block btn-custom" href="#" role="button">
+                                <i class="bi bi-instagram"></i></a>
+                        </li>
+                        <li class=" my-2 mx-0">
+                            <a class="btn d-inline-block btn-custom" href="#" role="button">
+                                <i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li class=" my-2 mx-0">
+                            <a class="btn d-inline-block btn-custom" href="#" role="button">
+                                <i class="bi bi-whatsapp"></i></a>
+                        </li>
+                        <li class=" my-2 mx-0">
+                            <a class="btn d-inline-block btn-custom" href="#" role="button">
+                                <i class="bi bi-twitter-x"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="nav flex-column my-2">
+                        <li>APP IL GIORNALE</li>
+                        <li><a href="#" class="link1">Scarica app Android</a></li>
+                        <li> <a href="#" class="link1">Scarica app Apple</a></li>
+                    </ul>
+
+                    <ul class="nav flex-column my-2">
+                        <li>INFO E LOGIN</li>
+                        <li><a href="#" class="link1">Login</a></li>
+                        <li><a href="#" class="link1">Registrati</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr class="hr hr-custom">
+                <ul class="nav d-flex justify-content-center flex-column flex-md-row mt-3 mb-3">
+                    <li>
+                    <a class="link1 mx-2" href="#">Chi siamo</a>
+                    </li>
+                    <li>
+                        <a class="link1 mx-2" href="#">Contatti</a>
+                    </li>
+                    <li>
+                        <a class="link1 mx-2" href="#">Disclaimer</a>
+                    </li>
+                    <li>
+                        <a class="link1 mx-2" href="#">Privacy</a>
+                    </li>
+                    <li>
+                        <a class="link1 mx-2" href="#">Modello 231</a>
+                    </li>
+                    <li>
+                        <a class="link1 mx-2" href="#">Ufficio Legale</a>
+                    </li>
+                    <li>
+                        <a class="link1 mx-2 m" href="#">Uso dei cookie</a>
+                    </li>
+                </ul>
+            <hr class="hr hr-custom">
+            <div class="text-secondary text-center mt-2 mb-2">
+                @IL GIORNALE ------S.R.L P.IVA XXXXXXXX
+            </div>
+        </footer>
+    </div>
+
+</body>
+<!-- Bootstrap JS and jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script> $(document).ready(function(){
+    var scrollingElement = document.getElementById("scrollingElement");
+    scrollingElement.style.display = "none";
+});
+        </script>
+<script>
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        var scrollingElement = document.getElementById("scrollingElement");
+        var disappearingElement = document.getElementById("disappering");
+        var disappearingNav = document.getElementById("disappearingNav");
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollingElement.style.display = "block";
+            disappearingElement.style.display = "none";
+            disappearingNav.style.display = "none";
+        } else {
+            scrollingElement.style.display = "none";
+            disappearingElement.style.display = "block";
+            disappearingNav.style.display = "block";
+        }
+    }
+</script>
+
+
+</html>
+
+
+<!--
+
+
+
+
+
+ <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <div class="col-md-3 mb-2 mb-md-0">
+        <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+          <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+      </div>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+        <li><a href="#" class="nav-link px-2">Features</a></li>
+        <li><a href="#" class="nav-link px-2">Pricing</a></li>
+        <li><a href="#" class="nav-link px-2">FAQs</a></li>
+        <li><a href="#" class="nav-link px-2">About</a></li>
+      </ul>
+
+      <div class="col-md-3 text-end">
+        <button type="button" class="btn btn-outline-primary me-2">Login</button>
+        <button type="button" class="btn btn-primary">Sign-up</button>
+      </div>
+    </header>
+-->
+
