@@ -88,7 +88,12 @@
     padding-left: 120px;
     overflow: hidden;
 }
+mark.custom-mark {
 
+    background-color: black; /* Change background color */
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 255);  /*Change thickness of highlight */
+    font-size: xxx-large;
+}
 @media screen and (min-width: 767px) {
     .adj {
         position: fixed;
