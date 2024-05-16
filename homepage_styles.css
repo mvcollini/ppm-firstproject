@@ -87,12 +87,20 @@
     height: 500px;
     padding-left: 120px;
     overflow: hidden;
+    z-index: -10;
 }
 mark.custom-mark {
 
     background-color: black; /* Change background color */
-    box-shadow: 0 0 0 10px rgba(255, 255, 255, 255);  /*Change thickness of highlight */
-    font-size: xxx-large;
+      /*Change thickness of highlight */
+    font-size: xx-large;
+    line-height: 70px;
+    /*font:;*/
+}
+.image-custom{
+    max-height: 100%;
+    width: auto;
+    max-width: 45vw;
 }
 @media screen and (min-width: 767px) {
     .adj {
