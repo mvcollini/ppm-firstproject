@@ -85,9 +85,11 @@
 .backarticle{
     background-color:#343a40;
     height: 500px;
-    padding-left: 120px;
     overflow: hidden;
     z-index: -10;
+}
+.first-article{
+    height: 500px;
 }
 mark.custom-mark {
 
@@ -97,10 +99,19 @@ mark.custom-mark {
     line-height: 70px;
     /*font:;*/
 }
-.image-custom{
-    max-height: 100%;
-    width: auto;
-    max-width: 45vw;
+.custom-card{
+    border:none;
+    background: none;
+}
+.custom-truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Limit the number of lines to display */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-width: 100%; /* Ensure the text doesn't overflow its container */
+}
+.custom-img2{
+
 }
 @media screen and (min-width: 767px) {
     .adj {
@@ -168,3 +179,46 @@ mark.custom-mark {
         align-items: center;
     }
 }
+
+@media screen and (min-width: 767px) {
+    .image-custom{
+        max-height: 100%;
+        width: auto;
+        max-width: 45vw;
+    }
+}
+@media screen and (max-width: 991px) {
+    .image-custom{
+        max-height: 100%;
+        width: auto;
+        max-width: 90vw;
+        min-width: 700px;
+    }
+}
+@media screen and (min-width: 991px) {
+    .backarticle{
+        padding-left: 120px;
+    }
+}
+@media screen and (min-width: 767px) {
+    .custom-img{
+        max-height: 100%;
+        width: auto;
+        max-width: 13vw;
+        min-width: 12vw;
+    }
+}
+@media screen and (max-width: 991px) {
+    .custom-img{
+        max-height: 100%;
+        width: auto;
+        max-width: 25vw;
+        min-width: 20px;
+    }
+}
+@media screen and (max-width:767px){
+    .custom-img{
+        align-content: flex-end;
+    }
+}
+
