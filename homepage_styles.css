@@ -221,4 +221,20 @@ mark.custom-mark {
         align-content: flex-end;
     }
 }
+@media screen and (min-width: 767px) {
+    .custom-img3{
+        max-height: 100%;
+        width: auto;
+        max-width: 13vw;
+        min-width: 12vw;
+    }
 
+}
+@media screen and (max-width:767px){
+    .custom-img3{
+        max-height: 100%;
+        width: auto;
+        max-width: 30vw;
+        align-content: flex-end;
+    }
+}
