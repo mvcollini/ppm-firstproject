@@ -113,6 +113,51 @@ mark.custom-mark {
 .custom-img2{
 
 }
+
+.carousel-control-next,
+.carousel-control-prev{
+    background: none;
+    color: black;
+    width: 5%;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    color: black;
+}
+.btn-custom3{
+    font-size: 2rem;
+}
+.carousel-indicators li {
+    background-color: #333;
+}
+.carousel{
+    background-color: rgba(235, 235, 235, 0.5);
+}
+.carousel-item > div {
+    flex: 1 0 21%; /* Default for large screens (4 items) */
+    max-width: 21%;
+    box-sizing: border-box;
+    margin: 0 0.5%;
+}
+.custom-control{
+    display: inline;
+    align-content: start;
+}
+@media (max-width: 992px) {
+    .carousel-item > div {
+        flex: 1 0 48%; /* Medium screens (2 items) */
+        max-width: 48%;
+        margin: 1%;
+    }
+}
+@media (max-width: 576px) {
+    .carousel-item > div {
+        flex: 1 0 98%; /* Small screens (1 item) */
+        max-width: 98%;
+        margin: 1%;
+    }
+}
 @media screen and (min-width: 767px) {
     .adj {
         position: fixed;
