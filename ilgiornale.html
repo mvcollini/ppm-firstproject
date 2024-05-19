@@ -16,7 +16,7 @@
     <div class="container-fluid container-custom">
 
         <header>
-            <!--barra che scompare-->
+            <!--barra scrolling-->
 
             <div class="fixed-top" id="scrollingElement">
                 <nav class="navbar navbar-light bg-white justify-content-md-between pb-3">
@@ -42,6 +42,7 @@
                         </a>
 
                     </div>
+
                 </nav>
                 <hr class="hr hr-custom my-0">
             </div>
@@ -68,12 +69,11 @@
                             <a class="btn btn-lg btn-custom" href="#" role="button">
                                 <i class="bi bi-person"></i>
                             </a>
-
                         </div>
                 </nav>
             </div>
             <!-- Toggled content-->
-            <div class="collapse navbar-collapse z-3 position-absolute custom-content justify-content-center overflow-y-scroll" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse shadow-lg custom-content justify-content-center z-3" id="navbarSupportedContent">
                 <div>
                     <form class="d-flex">
                         <input class="form-control mx-2" type="search" placeholder="Cerca nel sito" aria-label="Search">
@@ -208,7 +208,8 @@
             </div>
             <div class="col-lg-5 col-md-12 backarticle d-flex py-4 my-md-5 my-lg-0 flex-column flex-md-row flex-lg-column align-items-start">
 
-                <div class ="d-flex position-relative my-2 py-2 py-md-5 py-lg-2 px-md-2 border-bottom border-secondary flex-row-reverse flex-md-column flex-lg-row">
+                <div class ="d-flex position-relative my-2 py-2 py-md-5 py-lg-2 px-md-2 border-bottom
+                border-secondary flex-row-reverse flex-md-column flex-lg-row" onclick="openLink('https://unsplash.com/it/s/foto/whiskey')">
 
                     <img class="custom-img" alt="Un soldato che sta sparando" src="immagini/articoli/pexels-chaikong2511-35825.jpg">
                     <div class="text-white mx-1 text-custom">
@@ -235,39 +236,42 @@
         </div>
      <!-- SECONDO BLOCCO ARTICOLI -->
         <div class="row mx-2">
-            <div class="col-11 col-md-4 card custom-card text-start ">
-                <div class="card-header align-content-between custom-card px-0">
-                    EDITORIALE <button type="button" class="btn btn-primary mx-4"> <i class="bi bi-plus-lg"></i> SEGUI</button>
-                </div>
-                <img class="card-img custom-img2" alt="una protesta" src="immagini/articoli/pexels-markusspiske-2990639.jpg">
-                <div class="card-body px-0">
-                    <h5 class="card-title"><small>Interni</small> <br>Titolo dell'articolo</h5>
-                    <div class="card-footer custom-card px-0">
-                        <i class="bi bi-person-circle"></i> autore
+            <div class="col-11 col-md-4 ">
+                <div class="ms-1 mt-5">EDITORIALE <button type="button" class="btn btn-primary mx-2" href="#"> <i class="bi bi-plus-lg"></i> SEGUI</button></div>
+                <div class="card custom-card text-start ">
+                    <a class="stretched-link" href="#"></a>
+                    <img class="card-img custom-img2" alt="una protesta" src="immagini/articoli/pexels-markusspiske-2990639.jpg">
+                    <div class="card-body px-0">
+                        <h5 class="card-title"><small>Interni</small> <br>Titolo dell'articolo</h5>
+                        <div class="card-footer custom-card px-0">
+                            <i class="bi bi-person-circle"></i> autore
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-11 col-md-4 card custom-card text-start ">
-                <div class="card-header align-content-between custom-card px-0">
-                    EDITORIALE <button type="button" class="btn btn-primary mx-4"> <i class="bi bi-plus-lg"></i> SEGUI</button>
-                </div>
-                <img class="card-img" alt="una protesta" src="immagini/articoli/pexels-markusspiske-2990639.jpg">
-                <div class="card-body px-0">
-                    <h5 class="card-title"><small>Interni</small> <br>Titolo dell'articolo</h5>
-                    <div class="card-footer custom-card px-0">
-                        <i class="bi bi-person-circle"></i> autore
+            <div class="col-11 col-md-4 ">
+                <div class="ms-1 mt-5">EDITORIALE <button type="button" class="btn btn-primary mx-2" href="#"> <i class="bi bi-plus-lg"></i> SEGUI</button></div>
+                <div class="card custom-card text-start ">
+                    <a class="stretched-link" href="#"></a>
+                    <img class="card-img custom-img2" alt="una protesta" src="immagini/articoli/pexels-markusspiske-2990639.jpg">
+                    <div class="card-body px-0">
+                        <h5 class="card-title"><small>Interni</small> <br>Titolo dell'articolo</h5>
+                        <div class="card-footer custom-card px-0">
+                            <i class="bi bi-person-circle"></i> autore
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-11 col-md-4 card custom-card text-start ">
-                <div class="card-header align-content-between custom-card px-0">
-                    EDITORIALE <button type="button" class="btn btn-primary mx-4"> <i class="bi bi-plus-lg"></i> SEGUI</button>
-                </div>
-                <img class="card-img custom-img2" alt="una protesta" src="immagini/articoli/pexels-markusspiske-2990639.jpg">
-                <div class="card-body px-0">
-                    <h5 class="card-title"><small>Interni</small> <br>Titolo dell'articolo</h5>
-                    <div class="card-footer custom-card px-0" >
-                        <i class="bi bi-person-circle"></i> autore
+            <div class="col-11 col-md-4 ">
+                <div class="ms-1 mt-5">EDITORIALE <button type="button" class="btn btn-primary mx-2" href="#"> <i class="bi bi-plus-lg"></i> SEGUI</button></div>
+                <div class="card custom-card text-start ">
+                    <a class="stretched-link" href="#"></a>
+                    <img class="card-img custom-img2" alt="una protesta" src="immagini/articoli/pexels-markusspiske-2990639.jpg">
+                    <div class="card-body px-0">
+                        <h5 class="card-title"><small>Interni</small> <br>Titolo dell'articolo</h5>
+                        <div class="card-footer custom-card px-0">
+                            <i class="bi bi-person-circle"></i> autore
+                        </div>
                     </div>
                 </div>
             </div>
@@ -275,8 +279,9 @@
         </div>
      <!-- TERZO BLOCCO ARTICOLI -->
         <div class="row mx-2">
-            <div class="col-10 mx-3"> EDITORIALE <button type="button" class="btn btn-primary mx-4"> <i class="bi bi-plus-lg"></i> SEGUI</button> </div>
+            <div class="col-10 mx-3"> EDITORIALE <button type="button" class="btn btn-primary mx-4" href="#"> <i class="bi bi-plus-lg"></i> SEGUI</button> </div>
             <div class="col-md-4 px-2 card custom-card">
+                <a class="stretched-link" href="#"></a>
                 <img class="card-img custom-img2 px-1" alt="una protesta" src="immagini/articoli/pexels-markusspiske-2990639.jpg">
                 <div class="card-body px-0">
                     <h5 class="card-title"><small>Interni</small> <br>Titolo dell'articolo</h5>
@@ -285,8 +290,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 px-2 card custom-card">
-
+            <div class="col-md-4 px-2 card custom-card d-none d-md-block">
+                <a class="stretched-link" href="#"></a>
                 <img class="card-img custom-img2 px-1" alt="una protesta" src="immagini/articoli/pexels-markusspiske-2990639.jpg">
                 <div class="card-body px-0">
                     <h5 class="card-title"><small>Interni</small> <br>Titolo dell'articolo</h5>
@@ -296,8 +301,14 @@
                 </div>
             </div>
             <div class="col-md-4 col-12 px-sm-2 px-md-1">
+                <div class ="d-flex position-relative py-2 d-block d-md-none  border-bottom border-secondary flex-row-reverse flex-md-row">
+                    <img class="custom-img3" alt="una protesta" src="immagini/articoli/pexels-markusspiske-2990639.jpg">
+                    <div class="text-black mx-1 text-custom">
+                        <h6 class="mt-0  custom-truncate"><small>Interni</small> <br> Descrizione  e bereve sintesi dell'articolo che viene descritto nell'immagine</h6>
+                        <small><i class="bi bi-person-circle"></i> autore</small>
+                    </div>
+                </div>
                 <div class ="d-flex position-relative py-2   border-bottom border-secondary flex-row-reverse flex-md-row">
-
                     <img class="custom-img3" alt="Un soldato che sta sparando" src="immagini/articoli/pexels-chaikong2511-35825.jpg">
                     <div class="text-black mx-1 text-custom">
                         <h6 class="mt-0  custom-truncate"><small>Attualità</small> <br> Descrizione  e bereve sintesi dell'articolo che viene descritto nell'immagine</h6>
@@ -322,66 +333,128 @@
             </div>
         </div>
     </div>
+    <!--CAROSELLO -->
     <div class="container-fluid container-custom ">
-        <div id="carouselExample" class="carousel slide d-none d-lg-block"  data-ride="carousel">
-            <ol class="carousel-indicators my-0">
+       <!--PRIMO CAROSELLO-->
+        <div id="carouselExample" class="carousel slide d-none d-lg-block p-4"  data-ride="carousel">
+            <ol class="carousel-indicators my-0 z-0">
                 <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExample" data-slide-to="1"></li>
                 <li data-target="#carouselExample" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner p-5 mx-5 overflow-hidden">
+            <div class="carousel-inner  overflow-hidden">
                 <div class="carousel-item active align-self-center">
-                    <div class="d-inline-block border p-3 ">
-                        <h3>Item 1</h3>
-                        <p>This is the content of item 1.</p>
+                    <a class="d-inline-block my-4 ">
+                        <a class="d-flex flex-row link1" href="#">
+                            <img src="immagini/carousel/pexels-danxavier-1239288-2.jpg" alt="primo piano autore" class="rounded-circle" height="50px">
+                            <div class="px-2">
+                                <h6><small>TITOLO BLOG <br> Autore</small></h6>
+                                <p>Titolo di un articolo del blog</p>
+                            </div>
+                        </a>
+                    </a>
+                    <div class="d-inline-block my-4">
+                        <a class="d-flex flex-row link1" href="#">
+                            <img src="immagini/carousel/pexels-italo-melo-881954-2379004-2.jpg" alt="primo piano autore" class="rounded-circle" height="50px">
+                            <div class="px-2">
+                                <h6><small>TITOLO BLOG <br> Autore</small></h6>
+                                <p>Titolo di un articolo del blog</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="d-inline-block border p-3">
-                        <h3>Item 1</h3>
-                        <p>This is the content of item 2.</p>
+                    <div class="d-inline-block my-4">
+                        <a class="d-flex flex-row  link1" href="#">
+                            <img src="immagini/carousel/pexels-italo-melo-881954-2379004-2.jpg" alt="primo piano autore" class="rounded-circle" height="50px">
+                            <div class="px-2 ">
+                                <h6><small>TITOLO BLOG <br> Autore</small></h6>
+                                <p>Titolo di un articolo del blog</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="d-inline-block border p-3">
-                        <h3>Item 1</h3>
-                        <p>This is the content of item 3.</p>
-                    </div>
-                    <div class="d-inline-block border p-3">
-                        <h3>Item 1</h3>
-                        <p>This is the content of item 4.</p>
+                    <div class="d-inline-block my-4">
+                        <a class="d-flex flex-row link1" href="#">
+                            <img src="immagini/carousel/pexels-italo-melo-881954-2379004-2.jpg" alt="primo piano autore" class="rounded-circle" height="50px">
+                            <div class="px-2">
+                                <h6><small>TITOLO BLOG <br> Autore</small></h6>
+                                <p>Titolo di un articolo del blog</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="d-inline-block border p-3">
-                        <h3>Item 2</h3>
-                        <p>This is the content of item 1.</p>
+                    <div class="d-inline-block my-4">
+                        <a class="d-flex flex-row  link1" href="#">
+                            <img src="immagini/carousel/pexels-italo-melo-881954-2379004-2.jpg" alt="primo piano autore" class="rounded-circle" height="50px">
+                            <div class="px-2">
+                                <h6><small>TITOLO BLOG <br> Autore</small></h6>
+                                <p>Titolo di un articolo del blog</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="d-inline-block border p-3">
-                        <h3>Item 2</h3>
-                        <p>This is the content of item 2.</p>
+                    <div class="d-inline-block my-4">
+                        <a class="d-flex flex-row  link1" href="#">
+                            <img src="immagini/carousel/pexels-italo-melo-881954-2379004-2.jpg" alt="primo piano autore" class="rounded-circle" height="50px">
+                            <div class="px-2">
+                                <h6><small>TITOLO BLOG <br> Autore</small></h6>
+                                <p>Titolo di un articolo del blog</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="d-inline-block border p-3">
-                        <h3>Item 2</h3>
-                        <p>This is the content of item 3.</p>
+                    <div class="d-inline-block my-4">
+                        <a class="d-flex flex-row  link1" href="#">
+                            <img src="immagini/carousel/pexels-italo-melo-881954-2379004-2.jpg" alt="primo piano autore" class="rounded-circle" height="50px">
+                            <div class="px-2">
+                                <h6><small>TITOLO BLOG <br> Autore</small></h6>
+                                <p>Titolo di un articolo del blog</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="d-inline-block border p-3">
-                        <h3>Item 2</h3>
-                        <p>This is the content of item 4.</p>
+                    <div class="d-inline-block my-4">
+                        <a class="d-flex flex-row  link1" href="#">
+                            <img src="immagini/carousel/pexels-italo-melo-881954-2379004-2.jpg" alt="primo piano autore" class="rounded-circle" height="50px">
+                            <div class="px-2">
+                                <h6><small>TITOLO BLOG <br> Autore</small></h6>
+                                <p>Titolo di un articolo del blog</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="d-inline-block border p-3">
-                        <h3>Item 3</h3>
-                        <p>This is the content of item 1</p>
+                    <div class="d-inline-block my-4">
+                        <a class="d-flex flex-row  link1" href="#">
+                            <img src="immagini/carousel/pexels-italo-melo-881954-2379004-2.jpg" alt="primo piano autore" class="rounded-circle" height="50px">
+                            <div class="px-2">
+                                <h6><small>TITOLO BLOG <br> Autore</small></h6>
+                                <p>Titolo di un articolo del blog</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="d-inline-block border p-3">
-                        <h3>Item 3</h3>
-                        <p>This is the content of item 2.</p>
+                    <div class="d-inline-block my-4">
+                        <a class="d-flex flex-row  link1" href="#">
+                            <img src="immagini/carousel/pexels-italo-melo-881954-2379004-2.jpg" alt="primo piano autore" class="rounded-circle" height="50px">
+                            <div class="px-2">
+                                <h6><small>TITOLO BLOG <br> Autore</small></h6>
+                                <p>Titolo di un articolo del blog</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="d-inline-block border p-3">
-                        <h3>Item 3</h3>
-                        <p>This is the content of item 3.</p>
+                    <div class="d-inline-block my-4">
+                        <a class="d-flex flex-row  link1" href="#">
+                            <img src="immagini/carousel/pexels-italo-melo-881954-2379004-2.jpg" alt="primo piano autore" class="rounded-circle" height="50px">
+                            <div class="px-2">
+                                <h6><small>TITOLO BLOG <br> Autore</small></h6>
+                                <p>Titolo di un articolo del blog</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="d-inline-block border p-3">
-                        <h3>Item 3</h3>
-                        <p>This is the content of item 4.</p>
+                    <div class="d-inline-block my-4">
+                        <a class="d-flex flex-row  link1" href="#">
+                            <img src="immagini/carousel/pexels-italo-melo-881954-2379004-2.jpg" alt="primo piano autore" class="rounded-circle" height="50px">
+                            <div class="px-2">
+                                <h6><small>TITOLO BLOG <br> Autore</small></h6>
+                                <p>Titolo di un articolo del blog</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -405,7 +478,7 @@
                 <li data-target="#carouselExample2" data-slide-to="4"></li>
                 <li data-target="#carouselExample2" data-slide-to="5"></li>
             </ol>
-            <div class="carousel-inner p-5 mx-5 overflow-hidden">
+            <div class="carousel-inner overflow-hidden">
                 <div class="carousel-item active">
                     <div class="d-inline-block border p-3 ">
                         <h3>Item 1</h3>
@@ -480,7 +553,8 @@
         <!-- TERZO CAROSELLO-->
         <div id="carouselExample3" class="carousel slide d-block d-md-none"  data-ride="carousel">
 
-            <div class="carousel-inner p-5 mx-5 overflow-hidden">
+
+            <div class="carousel-inner overflow-hidden">
                 <div class="carousel-item active">
                     <div class="d-inline-block border p-3 ">
                         <h3>Item 1</h3>
@@ -569,7 +643,7 @@
 
     <!-- FOOTER-->
     <div class="container-fluid container-custom">
-        <footer class="text-md-start footer-custom" >
+        <footer class="text-md-start footer-custom " >
             <hr class="hr hr-custom">
             <div class="row row-cols-1 row-cols-md-4 my-2 ">
                 <div class="col my-3">
@@ -708,18 +782,26 @@
         var scrollingElement = document.getElementById("scrollingElement");
         var disappearingElement = document.getElementById("disappering");
         var disappearingNav = document.getElementById("disappearingNav");
+        var content = document.getElementById("navbarSupportedContent");
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
             scrollingElement.style.display = "block";
             disappearingElement.style.display = "none";
             disappearingNav.style.display = "none";
+            content.style.paddingTop = "90px"
         } else {
             scrollingElement.style.display = "none";
             disappearingElement.style.display = "block";
             disappearingNav.style.display = "block";
+            content.style.paddingTop = "20px"
         }
     }
 </script>
 
+<script>
+    function openLink(url) {
+        window.open(url, '_blank');
+    }
+</script>
 
 
 

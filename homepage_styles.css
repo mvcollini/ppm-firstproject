@@ -22,7 +22,7 @@
     left: 0;
     right: 0;
     padding: 0;
-
+    position: fixed;
     z-index: 3!important;
 }
 
@@ -73,6 +73,14 @@
     border: none;
     color: #000;
 }
+#navbarSupportedContent{
+    padding-left: 10px;
+    position: fixed;
+    height: 80vh;
+    overflow-y: scroll;
+    box-shadow: 0 0 5px 5px #000000;
+
+}
 .link1{
     color: #000;
     font-weight: bold
@@ -113,7 +121,10 @@ mark.custom-mark {
 .custom-img2{
 
 }
-
+.carousel-item .link1:hover{
+    color: #000;
+    text-decoration: none;
+}
 .carousel-control-next,
 .carousel-control-prev{
     background: none;
@@ -139,6 +150,10 @@ mark.custom-mark {
     max-width: 21%;
     box-sizing: border-box;
     margin: 0 0.5%;
+}
+.carousel-inner{
+    padding-right: 0;
+    padding-left: 100px;
 }
 .custom-control{
     display: inline;
@@ -218,6 +233,7 @@ mark.custom-mark {
     padding-inline-start: 40px;
     }
 }
+
 @media screen and (max-width: 767px) {
     .footer-custom{
         text-align: center ;
