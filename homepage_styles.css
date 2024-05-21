@@ -79,7 +79,6 @@
     height: 80vh;
     overflow-y: scroll;
     box-shadow: 0 0 5px 5px #000000;
-
 }
 .link1{
     color: #000;
@@ -102,11 +101,9 @@
 }
 mark.custom-mark {
 
-    background-color: black; /* Change background color */
-      /*Change thickness of highlight */
+    background-color: black;
     font-size: xx-large;
     line-height: 70px;
-    /*font:;*/
 }
 .custom-card{
     border:none;
@@ -114,10 +111,10 @@ mark.custom-mark {
 }
 .custom-truncate {
     display: -webkit-box;
-    -webkit-line-clamp: 4; /* Limit the number of lines to display */
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    max-width: 100%; /* Ensure the text doesn't overflow its container */
+    max-width: 100%;
 }
 .custom-img2{
 
@@ -146,8 +143,11 @@ mark.custom-mark {
 .carousel{
     background-color: rgba(235, 235, 235, 0.5);
 }
+.custom-head{
+    background-color: rgba(235, 235, 235, 0.5);
+}
 .carousel-item > div {
-    flex: 1 0 21%; /* Default for large screens (4 items) */
+    flex: 1 0 21%;
     max-width: 21%;
     box-sizing: border-box;
     margin: 0 0.5%;
@@ -159,7 +159,6 @@ mark.custom-mark {
 .custom-control{
     display: inline;
     top:2px;
-
     background: none;
     color: black;
     width: 5%;
@@ -167,16 +166,16 @@ mark.custom-mark {
 .custom-control:hover{
     color: black;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .carousel-item > div {
-        flex: 1 0 48%; /* Medium screens (2 items) */
+        flex: 1 0 48%;
         max-width: 48%;
-        margin: 5%;
+        margin: 1%;
     }
 }
 @media (max-width: 576px) {
     .carousel-item > div {
-        flex: 1 0 98%; /* Small screens (1 item) */
+        flex: 1 0 98%;
         max-width: 98%;
         margin: 5%;
     }
@@ -262,6 +261,11 @@ mark.custom-mark {
         width: auto;
         max-width: 90vw;
         min-width: 700px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .first-image{
+        overflow-x: hidden;
     }
 }
 @media screen and (min-width: 991px) {
