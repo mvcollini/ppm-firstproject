@@ -204,7 +204,8 @@ mark.custom-mark {
 
 @media screen and (max-width: 767px) {
     .navbar-brand img {
-        max-height: 30px;
+        max-height: 25px;
+        margin-right: 0;
     }
 }
 @media screen and (max-width: 767px) {
